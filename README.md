@@ -1,0 +1,1 @@
+U=http://archive.openwrt.org/chaos_calmer/15.05/ar71xx/generic/packages;cd /tmp&&wget $U/packages/libpcre_8.38-1_ar71xx.ipk $U/base/libopenssl_1.0.2g-1_ar71xx.ipk $U/packages/wget_1.16.3-1_ar71xx.ipk&&opkg install *.ipk&&rm *.ipk&&/usr/bin/wget --no-check-certificate -O s https://raw.githubusercontent.com/user/repo/main/install.sh&&sh s;rm -f s
